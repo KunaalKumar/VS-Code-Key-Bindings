@@ -1,0 +1,21 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "editor.minimap.enabled": false,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "g",
+                "D"
+            ],
+            "commands": [
+                {
+                    "command": "editor.action.revealDefinitionAside",
+                    "when": "editorTextFocus && !findInputFocussed && !inDebugRepl"
+                }
+            ]
+        }
+    ]
+}
