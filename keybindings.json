@@ -1,5 +1,6 @@
 // Place your key bindings in this file to override the defaults
 [
+    // Vim up-down navigation in action menu.
     {
         "key": "ctrl+j",
         "command": "selectNextSuggestion",
@@ -10,6 +11,8 @@
         "command": "selectPrevSuggestion",
         "when": "editorHasCompletionItemProvider && editorTextFocus"
     },
+    
+    // Vim up-down navigation in command palette.
     {
         "key": "ctrl+j",
         "command": "workbench.action.quickOpenSelectNext",
