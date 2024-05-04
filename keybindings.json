@@ -22,5 +22,17 @@
         "key": "ctrl+k",
         "command": "workbench.action.quickOpenSelectPrevious",
         "when": "inQuickOpen"
-    }
+    },
+
+    // Vim up-down nabigation in quick actions.
+    {
+        "key": "ctrl+j",
+        "command": "selectNextCodeAction", // in v1.71
+        "when": "codeActionMenuVisible"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "selectPrevCodeAction", // in v1.71
+        "when": "codeActionMenuVisible"
+    },
 ]
